@@ -1,10 +1,10 @@
 import Button from "../Button/Button";
-import img from "../../img/placeholder-600x400.png";
-import styles from "./card.module.css";
+import img from "../../assets/img/placeholder-600x400.png";
+import style from "./card.module.css";
 
 export default function Card() {
   return (
-    <div className={"card " + "text-left " + styles.cardmain}>
+    <div className={"card " + "text-left " + style.cardmain}>
       <img src={img} className="card-img-top" alt="img" />
       <div className="card-body">
         <h5 className="card-title">Titolo del Post</h5>
