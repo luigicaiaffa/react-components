@@ -1,5 +1,7 @@
 /* ! Reset & Utils */
 
-body {
-  background-color: #bdbdbd;
+#root {
+  background-color: #e5e5e5;
+  min-height: 100vh;
+  position: relative;
 }
