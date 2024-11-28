@@ -1,3 +1,4 @@
+import Button from "../Button/Button";
 import img from "../../img/placeholder-600x400.png";
 import styles from "./card.module.css";
 
@@ -12,6 +13,7 @@ export default function Card() {
           reiciendis, velit dolorem iure recusandae assumenda iste deserunt
           nulla rerum hic quam commodi corrupti, expedita modi! Ullam, harum?
         </p>
+        <Button />
       </div>
     </div>
   );
