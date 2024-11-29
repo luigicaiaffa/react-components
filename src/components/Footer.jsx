@@ -1,8 +1,6 @@
-import style from "./footer.module.css";
-
 export default function Footer() {
   return (
-    <footer className={style.footer}>
+    <footer>
       <div className="container">
         <div>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum quis

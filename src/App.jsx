@@ -8,15 +8,15 @@ import "./css/App.css";
 // import components
 import Header from "./components/Header";
 import Main from "./components/Main";
-import Footer from "./components/Footer/Footer";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <>
+    <div className="wrapper">
       <Header />
       <Main />
       <Footer />
-    </>
+    </div>
   );
 }
 
